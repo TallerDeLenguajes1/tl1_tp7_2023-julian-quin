@@ -3,15 +3,14 @@ namespace calculatorTp
     public class Calculadora
     {
         private double dato;
-
-        public double Dato 
+        public double Resultado 
         { 
             get => dato; 
-            set => dato = value; 
         }
+
         public Calculadora ()
         {
-            dato=0;
+            dato=0; 
         }
         public void Sumar (double termino)
         {

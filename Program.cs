@@ -14,7 +14,7 @@ internal class Program
             Console.WriteLine("\t(0) SUMAR\n \t(1) RESTA\n \t(2) MULTIPLICACION\n \t(3) DIVISION\n \t(3) LIMPIAR\n \t\t\t by Juliancillo\t");
             opcString = Console.ReadLine();
             int.TryParse(opcString, out opc);
-            Console.WriteLine("Resultado de momento = "+ Resultado.Dato);
+            Console.WriteLine("Resultado de momento = "+ Resultado.Resultado);
             Console.WriteLine("ingrese un numero para comenzar el acarreo\n");
             opcString = Console.ReadLine();
             double.TryParse(opcString, out numero);
@@ -36,7 +36,7 @@ internal class Program
                     Resultado.Limpiar();
                 break;
             }
-            Console.WriteLine("Resultado de momento = "+ Resultado.Dato);
+            Console.WriteLine("Resultado de momento = "+ Resultado.Resultado);
             Console.WriteLine("¿ Desea Parar ? ok = 0 no = 1");
             opcString= Console.ReadLine();
             int.TryParse(opcString, out parar);
