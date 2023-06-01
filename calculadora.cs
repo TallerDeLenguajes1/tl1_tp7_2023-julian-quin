@@ -30,7 +30,7 @@ namespace calculatorTp
             dato/=termino;
         }
         public void Limpiar(){
-            dato=0;
+            dato =0;
         }
 
     }
